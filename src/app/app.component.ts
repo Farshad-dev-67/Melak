@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-      this.globalService.AdvertisingTypes().subscribe();
+    this.globalService.AdvertisingTypes().subscribe();
   }
 
 }
