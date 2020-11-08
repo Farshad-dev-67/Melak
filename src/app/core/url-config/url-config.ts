@@ -12,5 +12,5 @@ export const TblPropertyTypes = {
   PropertyTypes: 'api/TblPropertyTypes'
 };
 export const TblProperties = {
-  Properties: 'api/TblProperties'
+  Properties: 'api/TblProperties/GetAllTblProperty'
 };

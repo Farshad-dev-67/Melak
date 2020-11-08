@@ -121,23 +121,17 @@ export interface RootObject {
   isAskFor: boolean;
   adverstisingTypeId: number;
   adverstisingDiscription: string;
-  dateCreated: Date;
-  lastModified: Date;
-  expireDate: Date;
+  dateCreated: string;
+  lastModified: string;
+  expireDate: string;
   adverstisingTopic: string;
   isPublishedAdverstising: boolean;
   location: string;
   userId: number;
   image1Url: string;
-  image2Url: 'Farshad';
+  image2Url: string;
   image3Url: string;
   image4Url: string;
   image5Url: string;
   address: string;
-  adverstisingType: AdverstisingType;
-  cooling: Cooling;
-  heating: Heating;
-  owningTypeNavigation: OwningTypeNavigation;
-  type: Type;
-  user: User;
 }
