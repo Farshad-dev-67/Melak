@@ -5,3 +5,12 @@ export const TblAdmins = {
 export const TblAdvertisingTypes = {
   AdvertisingTypes: 'api/TblAdverstisingTypes'
 };
+export const TblUser = {
+  users: 'api/TblUsers'
+};
+export const TblPropertyTypes = {
+  PropertyTypes: 'api/TblPropertyTypes'
+};
+export const TblProperties = {
+  Properties: 'api/TblProperties'
+};
